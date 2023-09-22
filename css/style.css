@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu__state{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list li {
+    list-style: none;
+    margin-right: 50px;
+    font-family: Cormorant Garamond;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.text{
+    color:#B08EAD;
+}
+.texts {
+    color: #FFFFFF;
+}
+/* second */
+.second{
+    background: #C9ADC6;
+    margin-top: 20px;
+    padding: 70px 0px 80px 130px;
+    position: relative;
+    
+}
+.second__card{
+    position: absolute;
+    top: 190px;
+    right: 330px;
+}
+/* cards */
+.cards__state{
+    text-align: center;
+    padding: 80px;
+}
+.cards__btns{
+    width: 141px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #C9ADC6;
+    background-color: #FFFFFF;
+     
+}
+.cards__titles{
+    margin: 20px 0px;
+}
+.card__title{
+    padding: 10px 10px;
+    background-color: #CEB3CB;
+    color: #FFFFFF;
+}
+.cards__block{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 60px;
+    
+}
+.cars__card_active{
+    margin: 0px 20px 0px ;
+}
+/* third */
+.third{
+    background-color: #CEB3CB;
+    padding: 90px;
+    position: relative;
+    z-index: 999;
+}
+.third__state{
+    display: flex;
+}
+.third__title{
+    background: #B08EAD;
+    width: 440px;
+    height: 450px;
+    color: #FFFFFF;
+    padding: 80px 0px 50px 60px;
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+    z-index: -1;
+}
+.third__title h1 {
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    margin-bottom: 50px;
+
+}
+.third__title p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+}
+.third__title h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+.third__line{
+    width: 101px;
+    height: 2px;
+}
+.third__image{
+    width: 590px;
+    height: 675px;
+    margin-left: 500px;
+}
+/* furnture */
+.furniture{
+    padding: 70px;
+}
+.furniture__state{
+    display: flex;
+    justify-content: space-between;
+}
+.furniture__title p{
+    font-family: Cormorant Garamond;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-bottom: 10px;    
+    color: #5F4D5D;
+}
+.furniture__title{
+    margin-top: 70px;
+}
+.lines{
+    margin:40px 0px;
+}
+.furniture__btns{
+    width: 141px;
+    height: 45px;
+    border-radius: 20px;
+    color: #C9ADC6;
+    border: 2px solid #C9ADC6;
+    background-color: #FFFFFF;
+}
+/* pillows */
+
+.pillows{
+    background: #CEB3CB;
+    padding: 80px;
+
+}
+.pillows__state{
+    display: flex;
+}
+.pillows__title{
+    width: 440px;
+    height: 450px;
+    background: #B08EAD;
+    padding: 130px 10px 0px 60px;
+    margin-top: 100px;
+}
+.pillows__title p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
+.pillows__title h2 {
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+}
+
+/* cushion */
+.cushion{
+    padding-top: 50px;
+}
+.cushion__first{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.cushion__first p {
+    font-family: Cormorant Garamond;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.cushion__price{
+    color: #B0B0B0;
+}
+/* footer */
+.end{
+    background:#B08EAD;
+    padding:40px;
+}
+.end__states{
+    display: flex;
+}
+
+.end__list{
+    padding-left: 70px;
+}
+.end__list li {
+    color:#FFFFFF;
+    font-family: Cormorant Garamond;
+    font-size: 18px;
+    font-weight:400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+/* empty */
+.empty{
+    height: 900px;
+    padding: 500px 0px 200px 0px;
+}
+.nothing{
+    height: 235px;
+    background: #B08EAD;
+}
